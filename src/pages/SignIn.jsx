@@ -59,8 +59,8 @@ function SignIn({myfunction,sign}) {
                     </div>
                     <div className='buttons'>
                       <button className='ca-btn' onClick={myfunction} >Sign In</button>
-                      <button className='face'><div className='faceb'><img src ={facebook} alt='face'/><p>Sign in with Facebook</p></div></button>
-                      <button className='gog' ><div className='faceb'><img src ={google} alt='gog'/><p>Sign in with Google</p></div></button>
+                      <button className='face'><div className='faceb'><img src ={facebook} alt='face'/><p  className='sf'>Sign in with Facebook</p></div></button>
+                      <button className='gog' ><div className='faceb'><img src ={google} alt='gog'/><p p className='sf'>Sign in with Google</p></div></button>
                     </div>
                     <p className='forget'>Forgot Password?</p>
                   </div>

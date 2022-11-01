@@ -216,6 +216,11 @@ h5{
     .sharebtn{
         /* margin-right: -8rem; */
         margin-left: -3rem;
+        width: 8rem;
+        
+    }
+    .s{
+        margin-right: 10px;
     }
     .card{
         margin-top: 20px;

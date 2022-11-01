@@ -65,8 +65,8 @@ function Signup({myfunction,sign}) {
                   </div>
                   <div className='buttons'>
                     <button className='ca-btn' onClick={myfunction}>Create Account</button>
-                    <button className='face'><div className='faceb'><img src ={facebook} alt='face'/><p>Sign up with Facebook</p></div></button>
-                    <button className='gog' ><div className='faceb'><img src ={google} alt='gog'/><p>Sign up with Google</p></div></button>
+                    <button className='face'><div className='faceb'><img src ={facebook} alt='face'/><p className='sf'>Sign up with Facebook</p></div></button>
+                    <button className='gog' ><div className='faceb'><img src ={google} alt='gog'/><p className='sf'>Sign up with Google</p></div></button>
                   </div>
                 </div>
                 <div className='picc'>

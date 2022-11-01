@@ -252,4 +252,12 @@
     .first-name{
         width: 100%;
     }
+    .sf{
+        margin-left: -80px;
+    }
+}
+@media screen and ( max-width:350px){
+    .sf{
+        margin-left:0 ;
+    }
 }
