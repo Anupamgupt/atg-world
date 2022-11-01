@@ -1,0 +1,133 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7.2rem;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+    position: fixed;
+    top:0;
+    z-index: 100;
+}
+
+
+.left-nav{
+    flex: 1;
+   
+}
+.logo{
+    margin-left: 4.5rem;
+    width: 16.2rem;
+    height: 2.4rem;
+}
+.center-nav{
+    flex:1;
+    /* background-color: aqua; */
+}
+.input-form{
+    display: flex;
+    width: 36rem;
+    justify-content: center;
+    align-items: center;
+    height: 4.2rem;
+    background-color: #F2F2F2;
+    border-radius: 2.1rem;
+    margin-left: 3rem;
+}
+.input-box{
+    /* background-color: white; */
+    height: 100%;
+    border: none;
+    background-color: transparent;    
+    width: 100%;
+    /* border-radius-right: 21px; */
+    font-size: 1.6rem;
+
+}
+.search{
+    margin-right: 3.0rem;
+    margin:1.675rem;
+}
+.input-box:focus {
+    outline: none;
+    
+    /* box-shadow: 0 0 10px #66696b; */
+  }
+
+  .input-box::placeholder{
+    font-size: 1.4rem;
+  }
+
+.right-nav{
+    flex: 1;
+
+}
+.no-col{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: right;
+}
+.col{
+    color:#2f6ce5 ;
+}
+.drop{
+    margin-right: 3.1rem;
+    margin-left: 0.7rem;
+}
+.free{
+    text-decoration: none;
+}
+.si{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    justify-content:flex-end;
+    padding: 2rem;
+    font-weight: bold;
+}
+.jo{
+    width: 3.6rem;
+    height: 3.6rem;
+    margin-right: 1rem;
+    
+}
+.sg{
+    margin-right: 1rem;
+}
+.shape{
+    display: none;
+}
+@media screen and ( max-width:750px){
+   
+    .navbar{
+        height: 50px;
+        width: 100%;
+        /* display: none; */
+    }
+   .left-nav{
+    display: none;
+   }
+   .center-nav{
+    display: none;
+   }
+   .right-nav{
+    display: none;
+   }
+   .shape{
+    display: block;
+    margin-left: 85%;
+    height: 13px;
+    /* margin-top: 2rem; */
+   }
+
+   
+}
+@media screen and ( max-width:500px){
+    .shape{
+        margin-left: 80%;
+    }
+    /* .navbar{
+        display: none;
+    } */
+}

@@ -1,0 +1,37 @@
+.rec-com{
+    margin-top: 2rem;
+}
+.rec-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rec-group{
+    display: flex;
+    align-items: center;
+    
+}
+.rec-text{
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+.rec-button{
+    width: 6rem;
+    height: 2.4rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 1.4rem;
+    font-size: 1.2rem;
+}
+.rec-btn{
+    width: 6rem;
+    height: 2.4rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 1.4rem;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+}
